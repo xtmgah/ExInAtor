@@ -63,7 +63,7 @@ comprehensive results for all analyzed genes.</p>
 <p><a class="reference external" href="https://github.com/alanzos/ExInAtor">https://github.com/alanzos/ExInAtor</a></p>
 <p><strong>2. Uncompress it in path</strong></p>
 <p><strong>3. Ready to run</strong></p>
-<p>For each file you must provide the full path. Example command</p>
+<p>For each file you must provide the full path. Example command:</p>
 <div class="highlight-Description"><div class="highlight"><pre>$  python2.7 Main.py -i /home/All_files/Inputs/Breast.bed -o /home/All_files/Outputs -f /home/All_files/Inputs/Genome_v19.fasta -g /home/All_files/Inputs/gencode.v19.long_noncoding_RNAs.gtf -s /home/All_files/Inputs/chromosomes.txt -k /home/All_files/Inputs/3mers.txt -w /home/All_files/Inputs/gencode.v19.annotation.gtf -c 6 -n 119 -b 10000
 </pre></div>
 </div>
@@ -112,7 +112,7 @@ The null hypothesis in this case would generate a uniform distribution, this mea
 <p><a class="reference external" href="https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot">https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot</a></p>
 <p><a class="reference external" href="http://www.jstor.org/stable/2987987?origin=crossref&amp;seq=1#page_scan_tab_contents">http://www.jstor.org/stable/2987987?origin=crossref&amp;seq=1#page_scan_tab_contents</a></p>
 <p>The following is the expected QQplot of the example data provided with ExInAtor in the GitHub link: <a class="reference external" href="https://github.com/alanzos/ExInAtor">https://github.com/alanzos/ExInAtor</a></p>
-<a class="reference internal image-reference" href="_images/QQplot.png"><img alt="_images/QQplot.png" class="align-center" src="_images/QQplot.png" style="width: 800.0px; height: 800.0px;" /></a>
+<a class="reference internal image-reference" href="qqplot"><img alt="qqplot" class="align-center" src="https://github.com/alanzos/ExInAtor/blob/master/QQplot.jpg" style="width: 800.0px; height: 800.0px;" /></a>
 
 
   <h4>Previous topic</h4>
