@@ -42,7 +42,7 @@ comprehensive results for all analyzed genes.</p>
 <p><strong>D.</strong> Mutation mapping.</p>
 <p><strong>E.</strong> Definition of the new background region to obtain the same trinucleotide content (i.e. percentage) than the exonic region.</p>
 <p><strong>F.</strong> Mutation mapping on the new background region.</p>
-<a class="reference internal image-reference" href="_images/exinator_detailed_workflow.jpg"><img alt="_images/exinator_detailed_workflow.jpg" class="align-center" src="_images/exinator_detailed_workflow.jpg" style="width: 1123.0px; height: 794.0px;" /></a>
+<a class="reference internal image-reference" href="workflow"><img alt="workflow" class="align-center" src="https://github.com/alanzos/ExInAtor/blob/master/exinator_detailed_workflow.jpg" style="width: 1123.0px; height: 794.0px;" /></a>
 </div>
 <div class="section" id="requirements">
 <h1>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h1>
@@ -63,8 +63,8 @@ comprehensive results for all analyzed genes.</p>
 <p><a class="reference external" href="https://github.com/alanzos/ExInAtor">https://github.com/alanzos/ExInAtor</a></p>
 <p><strong>2. Uncompress it in path</strong></p>
 <p><strong>3. Ready to run</strong></p>
-<p>Example command</p>
-<div class="highlight-Description"><div class="highlight"><pre>$ python2.7 Main.py -i Inputs/Breast.bed -o Outputs -f Inputs/Genome_v19.fasta -g Inputs/gencode.v19.long_noncoding_RNAs.gtf -s Inputs/chromosomes.txt -k Inputs/3mers.txt -w Inputs/gencode.v19.annotation.gtf -c 6
+<p>For each file you must provide the full path. Example command</p>
+<div class="highlight-Description"><div class="highlight"><pre>$  python2.7 Main.py -i /home/All_files/Inputs/Breast.bed -o /home/All_files/Outputs -f /home/All_files/Inputs/Genome_v19.fasta -g /home/All_files/Inputs/gencode.v19.long_noncoding_RNAs.gtf -s /home/All_files/Inputs/chromosomes.txt -k /home/All_files/Inputs/3mers.txt -w /home/All_files/Inputs/gencode.v19.annotation.gtf -c 6 -n 119 -b 10000
 </pre></div>
 </div>
 <p>In the folder &#8220;Outputs&#8221; you can find the expected results.</p>
