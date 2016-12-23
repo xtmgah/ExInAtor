@@ -1,12 +1,5 @@
 </div>
-
-
-          </div>
-        </div>
-      </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-  <h3><a href="index.html">Table Of Contents</a></h3>
+  <h3><a href="">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Authors</a></li>
 <li><a class="reference internal" href="#description">Description</a></li>
