@@ -1,3 +1,216 @@
-# ExInAtor
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-Documentation and extra information here: exinator.freetzi.com
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Authors &mdash; ExInAtor  documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ExInAtor  documentation" href="index.html" />
+    <link rel="prev" title="Welcome to ExInAtor’s documentation!" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to ExInAtor’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">ExInAtor  documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="authors">
+<h1>Authors<a class="headerlink" href="#authors" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="mailto:andres&#46;lanzos&#37;&#52;&#48;crg&#46;eu">Andrés Lanzós</a> <sup>1,2,3</sup>
+<a class="reference external" href="mailto:joana&#46;carlevaro&#37;&#52;&#48;crg&#46;eu">Joana Carlevaro-Fita</a> <sup>1,2,3</sup>
+<a class="reference external" href="mailto:loris&#46;mularoni&#37;&#52;&#48;upf&#46;edu">Loris Mularoni</a> <sup>3,4</sup>
+<a class="reference external" href="mailto:ferran&#46;reverter&#37;&#52;&#48;crg&#46;eu">Ferran Reverter</a> <sup>1,2,3</sup>
+<a class="reference external" href="mailto:emilio&#46;palumbo&#37;&#52;&#48;crg&#46;eu">Emilio Palumbo</a> <sup>1,2,3</sup>
+<a class="reference external" href="mailto:roderic&#46;guigo&#37;&#52;&#48;crg&#46;eu">Roderic Guigó</a> <sup>1,2,3`</sup>
+<a class="reference external" href="mailto:rory&#46;johnson&#37;&#52;&#48;crg&#46;eu">Rory Johnson</a> <sup>1,2,3 *</sup></p>
+<ol class="arabic simple">
+<li>Joint BSC-CRG-IRB Research Program in Computational Biology, Centre for Genomic Regulation (CRG), Barcelona, Catalonia, Spain.</li>
+<li>Universitat Pompeu Fabra (UPF), Barcelona, Spain.</li>
+<li>Institut Hospital del Mar d’Investigacions Mèdiques (IMIM), 08003 Barcelona, Spain.</li>
+<li>Biomedical Genomics Lab, Research Unit on Biomedical Informatics, Department of Experimental and Health Sciences, Universitat Pompeu Fabra, Dr. Aiguader 88, Barcelona, Spain.</li>
+</ol>
+<ul class="simple">
+<li>Corresponding author.</li>
+</ul>
+</div>
+<div class="section" id="description">
+<h1>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h1>
+<p>ExInAtor is designed to detect cancer driver long non-coding RNA genes.
+The general approach is to identify genes that have an excess of mutations in their exons compared to local background regions (including intronic sequences)..
+The statistic method is based on
+the Hypergeometric distribution and generating a Q (False Discovery Rate) value for each gene.
+The main output file is called &#8220;ExInAtor_Gene_List.txt&#8221;, which contains
+comprehensive results for all analyzed genes.</p>
+<p>The general approach is represented in the following figure:</p>
+<p><strong>A.</strong> Example gene to analyse and two flanking genes.</p>
+<p><strong>B.</strong> Merging of exons for each gene.</p>
+<p><strong>C.</strong> Extension of the background region while removing any exon of any flanking gene.</p>
+<p><strong>D.</strong> Mutation mapping.</p>
+<p><strong>E.</strong> Definition of the new background region to obtain the same trinucleotide content (i.e. percentage) than the exonic region.</p>
+<p><strong>F.</strong> Mutation mapping on the new background region.</p>
+<a class="reference internal image-reference" href="_images/exinator_detailed_workflow.jpg"><img alt="_images/exinator_detailed_workflow.jpg" class="align-center" src="_images/exinator_detailed_workflow.jpg" style="width: 1123.0px; height: 794.0px;" /></a>
+</div>
+<div class="section" id="requirements">
+<h1>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h1>
+<p><strong>1. Linux</strong>:</p>
+<p>Tested in Ubuntu 14.04</p>
+<p><strong>2. Bedtools</strong>:</p>
+<p>Version 2.19.1</p>
+<p><strong>3. Python</strong>:</p>
+<p>Tested on version 2.7.6</p>
+<p><strong>4. R</strong>:</p>
+<p>Tested on versions 3.3.1</p>
+<p><strong>5. Awk</strong>:</p>
+<p>Tested on versions mawk 1.3.3</p>
+</div>
+<div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<p><strong>1. Download the compressed file &#8220;All_files.zip&#8221; from:</strong></p>
+<p><a class="reference external" href="https://github.com/alanzos/ExInAtor">https://github.com/alanzos/ExInAtor</a></p>
+<p><strong>2. Uncompress it in path</strong></p>
+<p><strong>3. Ready to run</strong></p>
+<p>Example command</p>
+<div class="highlight-Description"><div class="highlight"><pre>$ python2.7 Main.py -i Inputs/Breast.bed -o Outputs -f Inputs/Genome_v19.fasta -g Inputs/gencode.v19.long_noncoding_RNAs.gtf -s Inputs/chromosomes.txt -k Inputs/3mers.txt -w Inputs/gencode.v19.annotation.gtf -c 6
+</pre></div>
+</div>
+<p>In the folder &#8220;Outputs&#8221; you can find the expected results.</p>
+</div>
+<div class="section" id="inputs">
+<h1>Inputs<a class="headerlink" href="#inputs" title="Permalink to this headline">¶</a></h1>
+<p>All of the following files are provided in the compressed file &#8220;All_files.zip&#8221; but the Fasta file of the whole genome (&#8220;-f | &#8211;fasta_file&#8221;) which can be obtained here: <a class="reference external" href="ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_19/GRCh37.p13.genome.fa.gz">ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_19/GRCh37.p13.genome.fa.gz</a></p>
+<dl class="docutils">
+<dt><strong>1. Mandatory</strong>:</dt>
+<dd><ul class="first last simple">
+<li>-i | &#8211;input_file -&gt; File containing the localization of the cancer mutations in BED format.</li>
+<li>-o | &#8211;output_folder -&gt; Name of the folder where files and plots are saved.</li>
+<li>-g | &#8211;gtf_file -&gt; File containing the genes and exons to analyse in GTF format. Other features, including transcripts, will be ignored.</li>
+<li>-f | &#8211;fasta_file -&gt; Fasta of the whole genome.</li>
+<li>-s | &#8211;chr_sizes -&gt; Two-column tab-separated text file containing assembly sequence names and sizes.</li>
+<li>-k | &#8211;kmers_file -&gt; Txt file containing all the possible trinucleotides.</li>
+<li>-w | &#8211;whole_genome -&gt; File containing the genes and exons of all the genome in GTF format. Other features, including transcripts, will be ignored.</li>
+<li>-n | &#8211;number_of_genomes -&gt; The number of samples or genomes corresponding to the &#8220;input_file&#8221;.</li>
+</ul>
+</dd>
+<dt><strong>2. Optional</strong>:</dt>
+<dd><ul class="first last simple">
+<li>-e | &#8211;exonic_filter -&gt; Minimun number of exonic mutations a gene must have to be analyzed.</li>
+<li>-x | &#8211;background_filter -&gt; Minimun number of background mutations a gene must have to be analyzed.</li>
+<li>-b | &#8211;background_size -&gt; the extension length of the background region that includes all introns.</li>
+<li>-c | &#8211;cores -&gt; the number of CPU cores to use in the analysis.</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="outputs">
+<h1>Outputs<a class="headerlink" href="#outputs" title="Permalink to this headline">¶</a></h1>
+<p><strong>1. ExInAtor_Gene_List.txt</strong>: Final output. List of driver candidates with exon_mutations, exon_length, intron_mutations, intron_length, pval, qval. Sorted by Qval.</p>
+<p><strong>2. genes.bed</strong>: BED file containing the localization of each gene.</p>
+<p><strong>3. counts.txt</strong>: File containing the number of exonic mutations, exonic length, background mutations and background length for each gene.</p>
+<p><strong>4. table_kmer_counts.txt</strong>: File containing the number of exonic mutations, exonic length, background mutations and background length for each trinucleotide in each gene.</p>
+<p><strong>5. qqplot.png</strong>: QQplot of the expected and observed pvalues</p>
+</div>
+<div class="section" id="qqplots">
+<h1>QQplots<a class="headerlink" href="#qqplots" title="Permalink to this headline">¶</a></h1>
+<p>These plots are used to evaluate whether the Pvalues follow a Uniform distribution, and hence the overall statistical behaviour of the results.
+&#8220;QQ&#8221; stands for Quantile-Quantile plot. The point of these figures is to compare the distribution of observed pvalues to the expected distribution under the null hypothesis of no association.
+The null hypothesis in this case would generate a uniform distribution, this means, a flat histogram over all statistical tests with a total density of 1.</p>
+<p>For more information see:</p>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot">https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot</a></p>
+<p><a class="reference external" href="http://www.jstor.org/stable/2987987?origin=crossref&amp;seq=1#page_scan_tab_contents">http://www.jstor.org/stable/2987987?origin=crossref&amp;seq=1#page_scan_tab_contents</a></p>
+<p>The following is the expected QQplot of the example data provided with ExInAtor in the GitHub link: <a class="reference external" href="https://github.com/alanzos/ExInAtor">https://github.com/alanzos/ExInAtor</a></p>
+<a class="reference internal image-reference" href="_images/QQplot.png"><img alt="_images/QQplot.png" class="align-center" src="_images/QQplot.png" style="width: 800.0px; height: 800.0px;" /></a>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Authors</a></li>
+<li><a class="reference internal" href="#description">Description</a></li>
+<li><a class="reference internal" href="#requirements">Requirements</a></li>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#inputs">Inputs</a></li>
+<li><a class="reference internal" href="#outputs">Outputs</a></li>
+<li><a class="reference internal" href="#qqplots">QQplots</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to ExInAtor&#8217;s documentation!</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/Documentation.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to ExInAtor’s documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">ExInAtor  documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Andrés Lanzós.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>
