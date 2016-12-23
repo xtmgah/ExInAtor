@@ -24,7 +24,7 @@
 <li>Biomedical Genomics Lab, Research Unit on Biomedical Informatics, Department of Experimental and Health Sciences, Universitat Pompeu Fabra, Dr. Aiguader 88, Barcelona, Spain.</li>
 </ol>
 <ul class="simple">
-<li>Corresponding author.</li>
+<p>* Corresponding author.</p>
 </ul>
 </div>
 <div class="section" id="description">
