@@ -1,51 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+</div>
 
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <title>Authors &mdash; ExInAtor  documentation</title>
-    
-    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
-      };
-    </script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="ExInAtor  documentation" href="index.html" />
-    <link rel="prev" title="Welcome to ExInAtor’s documentation!" href="index.html" /> 
-  </head>
-  <body role="document">
-    <div class="related" role="navigation" aria-label="related navigation">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             accesskey="I">index</a></li>
-        <li class="right" >
-          <a href="index.html" title="Welcome to ExInAtor’s documentation!"
-             accesskey="P">previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">ExInAtor  documentation</a> &raquo;</li> 
-      </ul>
-    </div>  
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Authors</a></li>
+<li><a class="reference internal" href="#description">Description</a></li>
+<li><a class="reference internal" href="#requirements">Requirements</a></li>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#inputs">Inputs</a></li>
+<li><a class="reference internal" href="#outputs">Outputs</a></li>
+<li><a class="reference internal" href="#qqplots">QQplots</a></li>
+</ul>
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body" role="main">
-            
-  <div class="section" id="authors">
 <h1>Authors<a class="headerlink" href="#authors" title="Permalink to this headline">¶</a></h1>
 <p><a class="reference external" href="mailto:andres&#46;lanzos&#37;&#52;&#48;crg&#46;eu">Andrés Lanzós</a> <sup>1,2,3</sup>
 <a class="reference external" href="mailto:joana&#46;carlevaro&#37;&#52;&#48;crg&#46;eu">Joana Carlevaro-Fita</a> <sup>1,2,3</sup>
@@ -150,24 +121,7 @@ The null hypothesis in this case would generate a uniform distribution, this mea
 <p><a class="reference external" href="http://www.jstor.org/stable/2987987?origin=crossref&amp;seq=1#page_scan_tab_contents">http://www.jstor.org/stable/2987987?origin=crossref&amp;seq=1#page_scan_tab_contents</a></p>
 <p>The following is the expected QQplot of the example data provided with ExInAtor in the GitHub link: <a class="reference external" href="https://github.com/alanzos/ExInAtor">https://github.com/alanzos/ExInAtor</a></p>
 <a class="reference internal image-reference" href="_images/QQplot.png"><img alt="_images/QQplot.png" class="align-center" src="_images/QQplot.png" style="width: 800.0px; height: 800.0px;" /></a>
-</div>
 
-
-          </div>
-        </div>
-      </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-  <h3><a href="index.html">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Authors</a></li>
-<li><a class="reference internal" href="#description">Description</a></li>
-<li><a class="reference internal" href="#requirements">Requirements</a></li>
-<li><a class="reference internal" href="#installation">Installation</a></li>
-<li><a class="reference internal" href="#inputs">Inputs</a></li>
-<li><a class="reference internal" href="#outputs">Outputs</a></li>
-<li><a class="reference internal" href="#qqplots">QQplots</a></li>
-</ul>
 
   <h4>Previous topic</h4>
   <p class="topless"><a href="index.html"
