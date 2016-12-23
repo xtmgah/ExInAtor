@@ -1,6 +1,5 @@
-</div>
-  <h3><a href="">Table Of Contents</a></h3>
-  <ul>
+<h1>Table Of Contents
+<ul>
 <li><a class="reference internal" href="#">Authors</a></li>
 <li><a class="reference internal" href="#description">Description</a></li>
 <li><a class="reference internal" href="#requirements">Requirements</a></li>
