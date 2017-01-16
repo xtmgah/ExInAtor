@@ -16,12 +16,13 @@
 <a class="reference external" href="mailto:ferran&#46;reverter&#37;&#52;&#48;crg&#46;eu">Ferran Reverter</a> <sup>1,2,3</sup>
 <a class="reference external" href="mailto:emilio&#46;palumbo&#37;&#52;&#48;crg&#46;eu">Emilio Palumbo</a> <sup>1,2,3</sup>
 <a class="reference external" href="mailto:roderic&#46;guigo&#37;&#52;&#48;crg&#46;eu">Roderic Guigó</a> <sup>1,2,3`</sup>
-<a class="reference external" href="mailto:rory&#46;johnson&#37;&#52;&#48;crg&#46;eu">Rory Johnson</a> <sup>1,2,3 *</sup></p>
+<a class="reference external" href="mailto:rory&#46;johnson&#37;&#52;&#48;crg&#46;eu">Rory Johnson</a> <sup>1,2,3,4 *</sup></p>
 <ol class="arabic simple">
-<li>Joint BSC-CRG-IRB Research Program in Computational Biology, Centre for Genomic Regulation (CRG), Barcelona, Catalonia, Spain.</li>
+<li>Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona, 08003, Spain.</li>
 <li>Universitat Pompeu Fabra (UPF), Barcelona, Spain.</li>
 <li>Institut Hospital del Mar d’Investigacions Mèdiques (IMIM), 08003 Barcelona, Spain.</li>
-<li>Biomedical Genomics Lab, Research Unit on Biomedical Informatics, Department of Experimental and Health Sciences, Universitat Pompeu Fabra, Dr. Aiguader 88, Barcelona, Spain.</li>
+<li>Research Unit on Biomedical Informatics, Department of Experimental and Health Sciences, Universitat Pompeu Fabra, Dr. Aiguader 88, Barcelona, Spain.</li>
+<li>Present address: Department of Clinical Research, University of Bern, Murtenstrasse 35, 3010 Bern, Switzerland.</li>
 </ol>
 <ul class="simple">
 <p>* Corresponding author.</p>
