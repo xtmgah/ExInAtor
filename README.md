@@ -16,7 +16,7 @@
 <a class="reference external" href="mailto:ferran&#46;reverter&#37;&#52;&#48;crg&#46;eu">Ferran Reverter</a> <sup>1,2,3</sup>
 <a class="reference external" href="mailto:emilio&#46;palumbo&#37;&#52;&#48;crg&#46;eu">Emilio Palumbo</a> <sup>1,2,3</sup>
 <a class="reference external" href="mailto:roderic&#46;guigo&#37;&#52;&#48;crg&#46;eu">Roderic Guigó</a> <sup>1,2,3`</sup>
-<a class="reference external" href="mailto:rory&#46;johnson&#37;&#52;&#48;crg&#46;eu">Rory Johnson</a> <sup>1,2,3,4 *</sup></p>
+<a class="reference external" href="mailto:rory&#46;johnson&#37;&#52;&#48;crg&#46;eu">Rory Johnson</a> <sup>1,2,3,5 *</sup></p>
 <ol class="arabic simple">
 <li>Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, Dr. Aiguader 88, Barcelona, 08003, Spain.</li>
 <li>Universitat Pompeu Fabra (UPF), Barcelona, Spain.</li>
